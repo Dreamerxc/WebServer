@@ -1,1 +1,3 @@
-/usr/bin/c++  -g   CMakeFiles/Webserver.dir/main.cpp.o CMakeFiles/Webserver.dir/list_timer.cpp.o CMakeFiles/Webserver.dir/http_conn.cpp.o CMakeFiles/Webserver.dir/Webserver.cpp.o CMakeFiles/Webserver.dir/connection_pool.cpp.o  -o Webserver 
+"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Webserver.dir/objects.a
+C:\extralfiles\mingw64\bin\ar.exe cr CMakeFiles\Webserver.dir/objects.a @CMakeFiles\Webserver.dir\objects1.rsp
+C:\extralfiles\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Webserver.dir/objects.a -Wl,--no-whole-archive -o Webserver.exe -Wl,--out-implib,libWebserver.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Webserver.dir\linklibs.rsp

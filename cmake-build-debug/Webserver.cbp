@@ -2,123 +2,123 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="Webserver"/>
+		<Option title="WebServer"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/dreamer/Documents/Webserver/cmake-build-debug"/>
+				<Option working_dir="C:/extralfiles/Webserver/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dreamer/Documents/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dreamer/Documents/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dreamer/Documents/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dreamer/Documents/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/dreamer/Documents/Webserver/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dreamer/Documents/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dreamer/Documents/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dreamer/Documents/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dreamer/Documents/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/dreamer/Documents/Webserver/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dreamer/Documents/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dreamer/Documents/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dreamer/Documents/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dreamer/Documents/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/extralfiles/mingw64/bin/mingw32-make.exe -f &quot;C:/extralfiles/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/extralfiles/mingw64/bin/mingw32-make.exe -f &quot;C:/extralfiles/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/extralfiles/mingw64/bin/mingw32-make.exe -f &quot;C:/extralfiles/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/extralfiles/mingw64/bin/mingw32-make.exe -f &quot;C:/extralfiles/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Webserver">
-				<Option output="/home/dreamer/Documents/Webserver/cmake-build-debug/Webserver" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dreamer/Documents/Webserver/cmake-build-debug"/>
+				<Option output="C:/extralfiles/Webserver/cmake-build-debug/Webserver.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/extralfiles/Webserver/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="C:/extralfiles/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/extralfiles/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/extralfiles/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/extralfiles/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/extralfiles/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/extralfiles/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dreamer/Documents/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 Webserver"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dreamer/Documents/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dreamer/Documents/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dreamer/Documents/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/extralfiles/mingw64/bin/mingw32-make.exe -f &quot;C:/extralfiles/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 Webserver"/>
+					<CompileFile command="C:/extralfiles/mingw64/bin/mingw32-make.exe -f &quot;C:/extralfiles/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/extralfiles/mingw64/bin/mingw32-make.exe -f &quot;C:/extralfiles/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/extralfiles/mingw64/bin/mingw32-make.exe -f &quot;C:/extralfiles/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Webserver/fast">
-				<Option output="/home/dreamer/Documents/Webserver/cmake-build-debug/Webserver" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dreamer/Documents/Webserver/cmake-build-debug"/>
+				<Option output="C:/extralfiles/Webserver/cmake-build-debug/Webserver.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/extralfiles/Webserver/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="C:/extralfiles/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/extralfiles/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/extralfiles/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/extralfiles/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/extralfiles/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/extralfiles/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dreamer/Documents/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 Webserver/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dreamer/Documents/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dreamer/Documents/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dreamer/Documents/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/extralfiles/mingw64/bin/mingw32-make.exe -f &quot;C:/extralfiles/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 Webserver/fast"/>
+					<CompileFile command="C:/extralfiles/mingw64/bin/mingw32-make.exe -f &quot;C:/extralfiles/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/extralfiles/mingw64/bin/mingw32-make.exe -f &quot;C:/extralfiles/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/extralfiles/mingw64/bin/mingw32-make.exe -f &quot;C:/extralfiles/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/extralfiles/Webserver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/extralfiles/mingw64/bin/mingw32-make.exe -f &quot;C:/extralfiles/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/extralfiles/mingw64/bin/mingw32-make.exe -f &quot;C:/extralfiles/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/extralfiles/mingw64/bin/mingw32-make.exe -f &quot;C:/extralfiles/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/extralfiles/mingw64/bin/mingw32-make.exe -f &quot;C:/extralfiles/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/extralfiles/Webserver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/extralfiles/mingw64/bin/mingw32-make.exe -f &quot;C:/extralfiles/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/extralfiles/mingw64/bin/mingw32-make.exe -f &quot;C:/extralfiles/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/extralfiles/mingw64/bin/mingw32-make.exe -f &quot;C:/extralfiles/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/extralfiles/mingw64/bin/mingw32-make.exe -f &quot;C:/extralfiles/Webserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/dreamer/Documents/Webserver/cmake-build-debug/Webserver.cpp">
+		<Unit filename="C:/extralfiles/Webserver/Webserver.cpp">
 			<Option target="Webserver"/>
 		</Unit>
-		<Unit filename="/home/dreamer/Documents/Webserver/cmake-build-debug/block_queue.h">
+		<Unit filename="C:/extralfiles/Webserver/Webserver.h">
 			<Option target="Webserver"/>
 		</Unit>
-		<Unit filename="/home/dreamer/Documents/Webserver/cmake-build-debug/connection_pool.cpp">
+		<Unit filename="C:/extralfiles/Webserver/common/list_timer.cpp">
 			<Option target="Webserver"/>
 		</Unit>
-		<Unit filename="/home/dreamer/Documents/Webserver/cmake-build-debug/connection_pool.h">
+		<Unit filename="C:/extralfiles/Webserver/common/list_timer.h">
 			<Option target="Webserver"/>
 		</Unit>
-		<Unit filename="/home/dreamer/Documents/Webserver/cmake-build-debug/http_conn.cpp">
+		<Unit filename="C:/extralfiles/Webserver/config.cpp">
 			<Option target="Webserver"/>
 		</Unit>
-		<Unit filename="/home/dreamer/Documents/Webserver/cmake-build-debug/http_conn.h">
+		<Unit filename="C:/extralfiles/Webserver/config.h">
 			<Option target="Webserver"/>
 		</Unit>
-		<Unit filename="/home/dreamer/Documents/Webserver/cmake-build-debug/list_timer.cpp">
+		<Unit filename="C:/extralfiles/Webserver/http/http_conn.cpp">
 			<Option target="Webserver"/>
 		</Unit>
-		<Unit filename="/home/dreamer/Documents/Webserver/cmake-build-debug/list_timer.h">
+		<Unit filename="C:/extralfiles/Webserver/http/http_conn.h">
 			<Option target="Webserver"/>
 		</Unit>
-		<Unit filename="/home/dreamer/Documents/Webserver/cmake-build-debug/lock.h">
+		<Unit filename="C:/extralfiles/Webserver/main.cpp">
 			<Option target="Webserver"/>
 		</Unit>
-		<Unit filename="/home/dreamer/Documents/Webserver/cmake-build-debug/threadpool.h">
+		<Unit filename="C:/extralfiles/Webserver/pool/connection_pool.cpp">
 			<Option target="Webserver"/>
 		</Unit>
-		<Unit filename="/home/dreamer/Documents/Webserver/cmake-build-debug/webserver.h">
+		<Unit filename="C:/extralfiles/Webserver/pool/connection_pool.h">
 			<Option target="Webserver"/>
 		</Unit>
-		<Unit filename="/home/dreamer/Documents/Webserver/main.cpp">
+		<Unit filename="C:/extralfiles/Webserver/pool/threadpool.h">
 			<Option target="Webserver"/>
 		</Unit>
-		<Unit filename="/home/dreamer/Documents/Webserver/CMakeLists.txt">
+		<Unit filename="C:/extralfiles/Webserver/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
